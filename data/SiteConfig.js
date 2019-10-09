@@ -16,7 +16,7 @@ const config = {
   userName: "Ray Cole", // Username to display in the author segment.
   userEmail: "youremail@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "gatsbyjs", // Optionally renders "Follow Me" in the Bio segment.
-  userGitHub: "gatsbyjs", // Optionally renders "Follow Me" in the Bio segment.
+  userGitHub: "raycomms", // Optionally renders "Follow Me" in the Bio segment.
   userLocation: "North Pole, Earth", // User location to display in the author segment.
   userAvatar: "/logos/logo-48.png", // User avatar to display in the author segment.
   userDescription:
