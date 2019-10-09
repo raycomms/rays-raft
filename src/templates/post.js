@@ -4,7 +4,6 @@ import { graphql , Link } from 'gatsby'
 import Layout from '../layout'
 import Bio from '../components/Bio'
 import PostTags from '../components/PostTags'
-import SocialLinks from '../components/SocialLinks'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 import styles from  './post.module.scss'
@@ -31,7 +30,6 @@ export default  ({ data, pageContext }) => {
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className={styles.postMeta}>
             <PostTags tags={post.tags} />
-            <SocialLinks postPath={slug} postNode={postNode} />
           </div>
           <hr />
           <Bio config={config} />
