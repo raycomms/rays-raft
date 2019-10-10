@@ -1,7 +1,7 @@
 import Typography from "typography"
-import fairyGatesTheme from 'typography-theme-stow-lake'
+import stowLakeTheme from 'typography-theme-stow-lake'
 
-const typography = new Typography(fairyGatesTheme)
+const typography = new Typography(stowLakeTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
