@@ -1,0 +1,76 @@
+html {
+  font: 112.5%/1.722 "Open Sans", sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+body {
+  margin: 0;
+  background: #fafbfb;
+  color: hsla(0, 0%, 0%, 0.8);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3.444rem;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.722rem;
+  color: hsla(0, 0%, 0%, 0.9);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+h3 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 3.444rem;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.722rem;
+  color: hsla(0, 0%, 0%, 0.9);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-size: 1.31951rem;
+  line-height: 1.1;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 1.722rem;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 1.93725rem;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.722rem;
+  font-size: 1.1487rem;
+  line-height: 1.722rem;
+  color: hsla(0, 0%, 0%, 0.59);
+  border-left: 0.64575rem solid;
+  border-color: #4f647d;
+}

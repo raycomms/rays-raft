@@ -18,7 +18,6 @@ module.exports = {
     }
   },
   plugins: [
-    
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     "gatsby-plugin-htaccess",
@@ -36,13 +35,13 @@ module.exports = {
         path: `${__dirname}/content/`
       }
     },
-    {
+    /*{
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
         omitGoogleFont: true,
       },
-    },
+    },*/
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -77,7 +76,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
-    "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
@@ -89,18 +87,19 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: "minimal-ui",
+        icon: "logos/letter-r-512.png",
         icons: [
           {
-            src: '/logos/logo-48.png',
-            sizes: '48x48',
-            type: 'image/png',
+            src: "logos/letter-r-512.png",
+            sizes: "48x48",
+            type: "image/png"
           },
           {
-            src: '/logos/logo-1024.png',
-            sizes: '1024x1024',
-            type: 'image/png',
-          },
-        ],
+            src: "logos/letter-r-512.png",
+            sizes: "512x512",
+            type: "image/png"
+          }
+        ]
       }
     },
     "gatsby-plugin-remove-serviceworker",
@@ -181,4 +180,3 @@ module.exports = {
     }
   ]
 };
-
