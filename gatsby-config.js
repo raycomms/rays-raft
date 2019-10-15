@@ -13,13 +13,12 @@ module.exports = {
       image_url: `${urljoin(
         config.siteUrl,
         config.pathPrefix
-      )}/logos/logo-48.png`,
+      )}/logos/logo-1024.png`,
       copyright: config.copyright
     }
   },
   plugins: [
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sass",
     "gatsby-plugin-htaccess",
     {
       resolve: "gatsby-source-filesystem",
@@ -87,10 +86,10 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: "minimal-ui",
-        icon: "logos/letter-r-512.png",
+        icon: "static/logos/letter-r-512.png",
         icons: [
           {
-            src: "logos/letter-r-512.png",
+            src: "logos/letter-r-48.png",
             sizes: "48x48",
             type: "image/png"
           },
@@ -102,7 +101,6 @@ module.exports = {
         ]
       }
     },
-    "gatsby-plugin-remove-serviceworker",
     {
       resolve: "gatsby-plugin-feed",
       options: {

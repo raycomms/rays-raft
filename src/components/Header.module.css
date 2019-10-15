@@ -1,0 +1,82 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  background: hsla(0, 0%, 100%, 0.75);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  z-index: 9;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+}
+header a {
+  text-decoration: none;
+  color: #3c4856;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+header h1 {
+  margin-top: 5px;
+}
+header nav a {
+  color: #757575;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+}
+header nav a:hover {
+  color: #4f647d;
+}
+header nav a strong {
+  margin: 1px;
+  color: #4f647d;
+  font-size: 0.8rem;
+}
+header .activeNav {
+  color: #4f647d;
+  font-weight: 700;
+}
+.main-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+  overflow: auto;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+  -ms-overflow-style: none !important;
+}
+.main-nav::-webkit-scrollbar {
+  width: 0 !important;
+}
+.main-nav li {
+  font-size: 1.3rem;
+}
+.main-nav li + li {
+  margin-left: 2rem;
+}
+@media (max-width: 1000px) {
+  header {
+    display: block;
+    height: 84px;
+  }
+  nav {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 768px) {
+  header strong {
+    display: none;
+  }
+}
+@media (max-width: 520px) {
+  header nav a {
+    font-size: 13px;
+  }
+}

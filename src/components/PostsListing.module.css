@@ -1,0 +1,28 @@
+.article-list {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.article-list .article-box {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: auto;
+  transition: all 0.25s ease;
+}
+.article-list .article-box:hover {
+  cursor: pointer;
+}
+.article-list .article-box .right {
+  padding: 15px;
+  color: #3c4856;
+  margin-top: -20px;
+}
+.article-list .article-box .right .meta {
+  margin-top: -15px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  .article-list {
+    grid-template-columns: 100%;
+  }
+}

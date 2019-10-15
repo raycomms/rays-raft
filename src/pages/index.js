@@ -1,21 +1,20 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
-import Layout from '../layout'
-import PostListing from '../components/PostListing'
-import SEO from '../components/SEO'
-import config from '../../data/SiteConfig'
-
+import React from "react";
+import Helmet from "react-helmet";
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import PostListing from "../components/PostListing";
+import SEO from "../components/SEO";
+import config from "../../data/SiteConfig";
 
 const Index = ({ data }) => (
-  <Layout> 
+  <Layout>
     <main>
       <Helmet title={config.siteTitle} />
       <SEO />
       <PostListing postEdges={data.allMarkdownRemark.edges} />
     </main>
   </Layout>
-)
+);
 
 export default Index;
 
