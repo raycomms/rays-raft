@@ -10,7 +10,7 @@ export default ({ children }) => (
     <Helmet>
       <meta name="description" content={config.siteDescription} />
     </Helmet>
-    <div ClassName={styles}>{children}</div>
+    <div className={styles}>{children}</div>
     <Footer />
   </>
 );
