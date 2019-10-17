@@ -105,8 +105,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
     if (edge.node.frontmatter.categories) {
       edge.node.frontmatter.categories.forEach(category => {
-        categorySet.add(category)
-      })
+        categorySet.add(category);
+      });
     }
 
     const nextID = index + 1 < postsEdges.length ? index + 1 : 0;
@@ -126,7 +126,7 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     });
   });
- // Generate link foreach tag page
+  // Generate link foreach tag page
   tagSet.forEach(tag => {
     createPage({
       path: `/tags/${_.kebabCase(tag)}/`,
