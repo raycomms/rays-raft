@@ -1,12 +1,12 @@
 ---
 date: 2019-10-17
-title: 'Developing a Gatsby Theme'
-thumbnail: '../thumbnails/wp.png'
+title: "Developing a Gatsby Theme"
+thumbnail: "../thumbnails/wp.png"
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
 slug: developing-a-gatsby-theme
-categories: 
-    - Nodejs
-    - Creative Thinking
+categories:
+  - Nodejs
+  - Creative Thinking
 tags:
   - tag one
   - gatsby
@@ -22,8 +22,9 @@ altus **de vesper** membra blanditiis aethera orgia.
 1. Sicyonius color
 2. Publica animalia suoque sub
 3. Stupet eiusdem paventem meum
-   
+
 ![park](./images/park.jpg)
+
 ## Supersunt Prothoenora arida moturaque fuerit demissaque aut
 
 Hunc adventare duxit lacrimis hospes futurum fecerat inde manus reditum annos,
@@ -58,5 +59,5 @@ utinam sed, non nemo mixtos thyrsos. Inobservata subsunt.
 
 Coniuge contraxit in flagrantis et sacra Paridis pietas nymphas dextra et aequor
 erat insignia virginei medi. Acervo ferrum! Undecimus rabiemque elusam superesse
-*tantos crinibus*: bellum Iuno an celeberrima nostraque arcumque. Sive quod
+_tantos crinibus_: bellum Iuno an celeberrima nostraque arcumque. Sive quod
 inter Cynthia est gemitu crimina sis, et preces cuncta tamen?

@@ -2,14 +2,14 @@
 date: 2017-04-22
 title: "The Fairy's Witches"
 cover: "https://unsplash.it/1152/300/?random?FaityWitch"
-categories: 
-    - Gatsby
+categories:
+  - Gatsby
 ---
 
 ## Ait oculos
 
 Lorem markdownum. Dedit caput, saxa lenis adhibere negarunt substiterat et ab
-testes moderantum. Somno curas obscurum, et *regna spectare* quaeque tot arte
+testes moderantum. Somno curas obscurum, et _regna spectare_ quaeque tot arte
 Minyeia. Labens Actaeis potentior et **in visa Arcadiae** adfusaque et voto. In
 silendo pares sed noceat sceptri Phoenix, qui verso [ille
 erigitur](http://de-fuit.io/populorum.php): iacet confessus ibi lacusque.
@@ -25,7 +25,7 @@ Quae nova: campis peragebant omnemque direptos ipsi ore erat volucris neque;
 formae. Trepidare figuram minanti longa, nec seris, ibat plus madent, nec compos
 atque iuvenis dimotis; ferunt. An urbes ab deae Pentheus erit: non capere cui
 ausim fallit omnia et estque caede. Meas haec una ab est iter exstantibus illo
-*summae flecti*.
+_summae flecti_.
 
 ## Tyrios inquit
 
