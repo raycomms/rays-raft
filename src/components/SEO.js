@@ -1,7 +1,7 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import urljoin from 'url-join'
-import config from '../../data/SiteConfig'
+import React from "react";
+import Helmet from "react-helmet";
+import urljoin from "url-join";
+import config from "../../data/SiteConfig";
 
 const SEO = ({ postNode, postPath, postSEO }) => {
   let title;
@@ -14,7 +14,7 @@ const SEO = ({ postNode, postPath, postSEO }) => {
     description = postMeta.description
       ? postMeta.description
       : postNode.excerpt;
-    image = postMeta.cover;
+    image = config.siteLogo;
     postURL = urljoin(config.siteUrl, config.pathPrefix, postPath);
   } else {
     title = config.siteTitle;
@@ -82,11 +82,8 @@ const SEO = ({ postNode, postPath, postSEO }) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      
-
-      
     </Helmet>
-  )
-}
+  );
+};
 
-export default SEO
+export default SEO;

@@ -1,8 +1,7 @@
 ---
 date: 2019-10-17
 title: "Developing a Gatsby Theme"
-thumbnail: "../thumbnails/wp.png"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: big-raft.jpg
 slug: developing-a-gatsby-theme
 categories:
   - Nodejs
@@ -23,7 +22,7 @@ altus **de vesper** membra blanditiis aethera orgia.
 2. Publica animalia suoque sub
 3. Stupet eiusdem paventem meum
 
-![park](./images/park.jpg)
+![park](park.jpg "Park")
 
 ## Supersunt Prothoenora arida moturaque fuerit demissaque aut
 

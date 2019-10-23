@@ -25,6 +25,11 @@ main {
   padding: 20px;
 }
 
+a {
+  color: #4665b7;
+  text-decoration: none;
+}
+
 h1 {
   margin-left: 0;
   margin-right: 0;

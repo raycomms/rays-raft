@@ -34,13 +34,6 @@ module.exports = {
         path: `${__dirname}/content/`
       }
     },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "cover",
-        path: `${__dirname}/content/images/`
-      }
-    },
     /*{
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -48,6 +41,7 @@ module.exports = {
         omitGoogleFont: true,
       },
     },*/
+    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -55,7 +49,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 690
+              maxWidth: 600
             }
           },
           {
@@ -79,7 +73,6 @@ module.exports = {
         color: config.themeColor
       }
     },
-    "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-sitemap",
@@ -167,7 +160,6 @@ module.exports = {
                     }
                     frontmatter {
                       title
-                      cover
                       date
                       categories
                       tags
